@@ -7,8 +7,11 @@ This project analyzes a dataset of the top 1,000 movies on IMDB to identify tren
 
 # 🛠️ Tech Stack
 Language: Python
+
 Libraries: * Pandas (Data Manipulation)
+
 Matplotlib & Seaborn (Data Visualization)
+
 NumPy (Numerical Operations)
 
 
