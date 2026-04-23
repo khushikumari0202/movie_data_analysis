@@ -7,21 +7,16 @@ This project analyzes a dataset of the top 1,000 movies on IMDB to identify tren
 
 # 🛠️ Tech Stack
 Language: Python
-
 Libraries: * Pandas (Data Manipulation)
-
 Matplotlib & Seaborn (Data Visualization)
-
 NumPy (Numerical Operations)
 
+
 # 🧹 Data Cleaning Process (The "Phase 3" Heavy Lifting)
-Before analysis, the raw data was "noisy." Key cleaning steps included:
-
-Data Type Conversion: Converted Runtime (string to int) and Gross revenue (string to float).
-
-Handling Missing Values: Applied median imputation for missing Gross revenue to maintain a robust sample size.
-
-Feature Engineering: Created a Rating Gap metric to measure the difference between critic scores (Meta_score) and user ratings.
+- Before analysis, the raw data was "noisy." Key cleaning steps included:
+- Data Type Conversion: Converted Runtime (string to int) and Gross revenue (string to float).
+- Handling Missing Values: Applied median imputation for missing Gross revenue to maintain a robust sample size.
+- Feature Engineering: Created a Rating Gap metric to measure the difference between critic scores (Meta_score) and user ratings.
 
 # 📊 Key Insights & Visualizations
 1. The Revenue vs. Rating Myth
